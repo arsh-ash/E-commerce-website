@@ -1,0 +1,454 @@
+nav{
+background: linear-gradient(#ffd6d6);
+}
+.container-fluid{
+margin: 0px;
+}
+.navbar-brand{
+font-size: 25px;
+font-weight: bold;
+}
+nav a{
+color: orange;
+}
+.nav-link{
+font-size: 15px;
+}
+.intro{
+margin: auto;
+padding-top: 80px;
+
+
+
+}
+.intro h1{
+padding-bottom: 20px;
+width: 50%;
+}
+.intro .btn{
+background-color: orange;
+border-radius: 50px;
+
+
+}
+.header{
+background: radial-gradient(#fff,#ffd6d6);
+}
+
+.introimage img{
+width: 350px;
+height: 400px;
+margin: auto;
+position: relative;
+left: 30px;
+}
+.featurebox{
+text-align: center;
+padding: 30px;
+transition: transform 2s;
+transition-timing-function:ease;
+}
+.featurebox:hover{
+transform: rotate(360deg);
+}
+.featurebox img{
+height: 280px;
+width: 250px;
+}
+
+
+.featurerow{
+padding: 50px 150px;;
+}
+.featurepro h2{
+text-align: center;
+padding-bottom: 40px;
+
+}
+.rowpad{
+padding-left: 160px;
+padding-right: 150px;
+}
+.product img{
+height: 200px;
+width: 180px;
+
+}
+.product{
+padding: 20px;
+transition: transform 0.5s;
+
+}
+.product h5{
+font-weight:normal;
+}
+.product:hover{
+transform: translateY(-5px);
+}
+.ratings{
+color: orange;
+}
+.Exclusive{
+
+background: radial-gradient(#fff,#ffd6d6);
+padding: 50px 0px;
+
+}
+.Exclusive img{
+height: 250px;
+width: 300px;
+margin-left: 165px;
+border-radius: 20px;
+transition: transform 1s;
+}
+.Exclusive img:hover{
+transform:scale(1.5,1.3);
+}
+.smartband{
+padding: 30px 10px;
+
+}
+.smartband p{
+font-weight: lighter;
+padding: 5px;
+width: 60%;
+font-size: 13px;
+}
+.smartband .btn{
+background-color: orange;
+border-radius: 50px;
+}
+.testi{
+padding: 50px 70px;
+}
+.testimonial {
+text-align: center;
+padding: 20px;
+box-shadow: 5px 5px 0px 5px grey;  ;
+transition: transform 0.5s;
+}
+.testimonial:hover{
+transform: translateY(-10px);
+}
+.testimonial p{
+text-align: center;
+}
+.testimonial img{
+height: 150px;
+width:150px;
+margin-top: 10px;
+margin-left: 100px;
+display:block;
+border-radius: 100%;
+}
+.testimonial h3{
+font-weight: bold;
+}
+.brand{
+padding: 10px 20px;
+}
+.brand img{
+width: 100%;
+height: 100px;
+filter: grayscale(100%);
+transition: filter 0.5s;
+
+}
+.brand img:hover{
+filter: grayscale(0%);
+}
+
+.footer{
+background-color: black;
+color: white;
+text-align: center;
+margin-bottom: 10px;
+padding: 10px;
+}
+.footer p{
+line-height: 0.5;
+}
+.footer p:hover{
+color: orange;
+}
+.footer h1{
+margin-bottom: 5px;
+}
+.footerbox{
+border: 3px solid black;
+background-color: black;
+}
+.ficon{
+margin: 10px;
+}
+.ficon:hover{
+color: orange;
+}
+.footer .btn{
+background-color: grey;
+margin: 10px;
+}
+.btnicon{
+margin-right: 5px;
+}
+.footer .btn:hover{
+background-color: orange;
+}
+
+.smartband p{
+font-size: 20px;
+font-weight: normal;
+}
+
+
+.copyright{
+color: white;
+background-color: black
+}
+.copy{
+text-align: center;
+padding: 30px 5px;
+}
+.copyright p:hover
+{
+color:orange;
+}
+body{
+margin: 0px;
+padding: 0px;
+}
+
+@media (max-width:400px){
+
+.featurerow{
+padding-left: 40px;
+}
+.featurebox img{
+margin-left: 20px;
+}
+.featurebox{
+padding: 5px 10px;
+}
+.intro p{
+font-size: 22px;
+}
+.rowpad{
+padding:10px 30px;
+
+}
+.product img{
+height: 150px;
+width: 180px;
+margin-bottom: 5px;
+}
+.wa img{
+margin: 0px;
+height: 200px;
+width: 100%;
+}
+.faeturerow
+{
+padding: 5px 10px;
+
+}
+.featurerow img{
+height: 200px;
+width: 200px;
+}
+.smartband p{
+font-size: 20px;
+text-align:left;
+margin-left: 40px;
+font-weight: normal;
+}
+.smartband h1{
+font-size: 25px;
+margin-left: 40px;
+}
+.smartband .btn{
+margin-left: 40px;
+}
+.testimonial{
+box-shadow: 5px 5px 5px 5px grey;
+ margin-bottom: 30px;
+}
+.testimonial p{
+font-size: 20px;
+}
+.testimonial img{
+margin-left: 20px;
+text-align: left;
+}
+
+.featurepro h2{
+padding: 10px;
+}
+
+}
+@media (min-width:401px )and (max-width:499px){
+
+  .featurerow img{
+  height: 200px;
+  width: 200px;
+  }
+
+  .featurepro h2{
+  padding: 10px;
+  }
+  .rowpad{
+  padding:10px 20px;
+
+  }
+  .product img{
+  height: 150px;
+  width: 180px;
+  margin-bottom: 5px;
+  }
+.product{
+margin-left: auto;
+margin-right: auto;
+width:200px;
+}
+  .wa img{
+  margin-left: 40px;
+  height: 200px;
+  width: 200px;;
+  }
+  .smartband p{
+  font-size: 20px;
+  text-align:left;
+  margin-left: 40px;
+  font-weight: normal;
+  }
+  .smartband h1{
+  font-size: 25px;
+  margin-left: 40px;
+  }
+  .smartband .btn{
+  margin-left: 40px;
+  }
+  .testimonial p{
+  font-size: 20px;
+  text-align: left;
+  }
+  .testimonial img{
+  margin-left: 20px;
+  }
+  .brand img {
+  width: 150px;
+  height: 150px;
+  }
+.brand{
+margin-left: auto;
+margin-right: auto;
+width: 200px;
+padding: 0px;
+margin-bottom: 10px;
+}
+
+  }
+
+.featurerow{
+padding: 10px;
+}
+.product{
+padding: 5px;
+margin-left:auto;
+margin-right: auto;
+margin-bottom: 10px;
+
+
+}
+@media (min-width:501px )and (max-width:700px){
+  .intro p{
+  font-size: 22px;
+  }
+  .smartband p{
+  font-size: 20px;
+  text-align:left;
+  margin-left: 160px;
+  font-weight: normal;
+  }
+  .smartband h1{
+  font-size: 25px;
+  margin-left: 160px;
+  }
+  .smartband .btn{
+  margin-left: 160px;
+  }
+  .testimonial{
+  box-shadow: 5px 5px 5px 5px grey;
+   margin-bottom: 30px;
+  }
+.testimonial p{
+font-size: 20px;
+}
+.testimonial img{
+margin-left: 170px;
+}
+.product{
+margin-left: auto;
+margin-right: auto;
+width: 200px;
+}
+
+
+.footer h3{
+text-align: center;
+
+}
+.footer .btn{
+margin: 10px;
+
+}
+.ficon{
+display: inline;
+}
+.brand img{
+  width: 200px;
+  height: 150px;
+}
+.brand{
+margin-left: auto;
+margin-right: auto;
+width: 300px;
+}
+}
+@media (min-width:701px )and (max-width:990px){
+  .intro p{
+  font-size: 22px;
+  }
+  .smartband p{
+  font-size: 20px;
+  font-weight: normal;
+  }
+ .wa img{
+ margin-left: 20px;
+ margin-top: 100px;
+ }
+ .smartband h1{
+ font-size: 35px;
+ }
+ .testimonial p{
+ font-size: 20px;
+ }
+ .testimonial{
+ box-shadow: 5px 5px 5px 10px grey;
+  margin-bottom: 30px;
+padding: 30px 10px;
+ }
+ .testimonial img{
+ margin-left: 210px;
+ }
+ .brand img{
+   width: 200px;
+   height: 150px;
+ }
+ .brand{
+ margin-left: auto;
+ margin-right: auto;
+ width: 400px;
+ }
+
+
+}
